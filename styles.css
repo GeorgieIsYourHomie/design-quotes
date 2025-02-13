@@ -1,0 +1,86 @@
+body {
+  background-color: #4b5a15;
+  font-family: "neue-haas-unica", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1 {
+  color: #e3e3e3;
+  font-family: "ivypresto-display", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 5rem;
+  text-align: center;
+}
+
+p {
+  color: #e3e3e3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+  line-height: 1.2;
+  margin: 1rem 0rem;
+  font-size: 1.75rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+  background-color: #d38f2a;
+  border: 1px solid black;
+  border-radius: 4px;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  width: 300px;
+  transition: transform 0.2s ease-in-out;
+}
+button:hover {
+  transform: scale(1.05);
+}
+button:active {
+  transform: scale(0.85);
+}
+button:focus {
+  outline: none;
+}
+
+.quote-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 3rem;
+}
+
+
+.quote {
+  font-size: 1.5rem;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.quotation-marks {
+    color: #febaed;
+  font-family: "ivypresto-display", serif;
+  font-weight: 400;
+  font-size: 7rem;
+  margin-top: 1rem;
+}
+
+#author{
+    font-size: 1.25rem;
+    font-family: "ivypresto-display", serif;
+  font-weight: 400;
+} 
